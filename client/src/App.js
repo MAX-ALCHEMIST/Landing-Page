@@ -1,5 +1,7 @@
 import "./App.css";
 import nothing from "./nothing.png";
+import Admin from "./Admin.png";
+import Emp from "./employees.png";
 
 function App() {
   return (
@@ -26,7 +28,7 @@ function App() {
               Generating random paragraphs can be ang
             </p>
             <div class="bg-black">
-              <img class="object-scale-down h-48 w-96" src={nothing} />
+              <img class="object-scale-down h-48 w-96" src={Admin} />
             </div>
 
             <div class="container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
@@ -59,7 +61,10 @@ function App() {
             random paragraphs can be an
           </p>
           <div class="bg-green-500">
-            <img class="object-scale-down h-48 w-96" src={nothing} />
+            <img
+              class="object-scale-down h-48 w-96 bg-green-500"
+              src={nothing}
+            />
           </div>
           <div class="container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
             <a href="https://forms.gle/741DLjmi8Ukmtfr87">
