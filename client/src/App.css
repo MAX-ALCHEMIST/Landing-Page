@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+/* .nothing {
+  background-image: url(./nothing.png);
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
 }
