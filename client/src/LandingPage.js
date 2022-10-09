@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LandingPage() {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font pt-20 h-screen">
+    <section className="text-gray-400 bg-gray-900 body-font pt-28  h-screen">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
       <img className="object-cover object-center rounded-xl" alt="track-emp img" src="/Images/track-emp.jpg"/>
