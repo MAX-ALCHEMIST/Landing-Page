@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
 
-.title{
+.title {
   position: fixed;
   top: 0%;
   width: 100vw;
@@ -11,7 +15,19 @@
   font-size: 50px;
   font-weight: 700;
   color: white;
-  background-color: #0a0e18;
+  /* background-color: #171f32; */
   letter-spacing: 1px;
   z-index: 20;
-} 
+  background: rgba(23, 31, 50, 0.33);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(23, 31, 50, 0.3);
+}
+
+@media (max-width: 700px) {
+  .title {
+    padding: 10px 0 5px 20px;
+  }
+
+}
